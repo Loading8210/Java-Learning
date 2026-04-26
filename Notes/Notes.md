@@ -21,3 +21,42 @@
   - **!** 多行注释：Ctrl + Shift + /*
 - 注释运行规则：程序不管注释内容，不影响运行
 - 注释的嵌套：**别嵌套**
+
+# 20260426 Notes 
+
+## 关键字
+- 关键字：Java 语言中具有特殊意义的单词，不能用作变量名、方法名、类名等标识符。
+
+## packge: 定义一个包
+- `packge name;`
+- `packge 包名;`
+- **属于这个包name**
+
+## class: 定义一个类
+- 类：Java项目中最基本的组成单元
+
+## class格式：
+
+- ``public class Hello2 {
+ }``
+- **public**: 访问修饰符，表示这个类可以被任何其他类访问
+- **class**: 关键字，表示这是一个类的定义
+- **Hello2**: 类名
+
+##  public static void main(String[] args) {}
+- `` public static void main(String[] args) {
+    }``
+- 这是Java程序的**主入口**，程序从此往下逐行运行
+- 请勿修改` public static void main(String[] args) {}`中的任何内容，否则程序无法正常运行
+
+## System.out.println("Hello World");
+- `System.out.println("Hello World");`
+- Java的**输出/打印**语句，用于在控制台打印文本
+- 这一代码的快捷方式：**sout** 回车
+
+## AI辅助学习使用方法
+1. **定规则**
+2. **柴业务**
+3. **逐个实现**
+4. **排除BUG**
+5. **运行**
