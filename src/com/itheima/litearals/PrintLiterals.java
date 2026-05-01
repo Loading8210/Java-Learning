@@ -1,6 +1,4 @@
-package com.itheima.project;
-
-import java.lang.reflect.Type;
+package com.itheima.litearals;
 
 public class PrintLiterals {
     public static void main(String[] args) {
