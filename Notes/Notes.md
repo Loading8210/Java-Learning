@@ -147,5 +147,48 @@
 - 占2字节
 
 ### 布尔：boolean
--占1字节(true,false)
+- 占1字节(true,false)
 
+基本数据类型的数字取值范围大小关系：
+``double > float > long > int > short > byte``
+`long`,`float`的细节:在取的数末尾分别加`L`和`F`后缀
+
+## Java中的引用数据类型
+### 字符串：String
+
+# 2026-05-03 Notes
+## 标识符
+**标识符**：代码中所有我们自己取的名字
+包括：**类名**，**变量名**，**方法名**等
+
+### 标识符起名规则
+- 硬性要求：
+  - 由数字，字母，下划线“_”，“$”组成
+  - 不以数字开头
+  - 不能是关键字
+  - 区分大小写
+
+- 软性建议：
+  - 见名知义，驼峰命名
+  - **小驼峰**：方法名 , 变量名
+    - 仅一个单词时：小写 
+      - `apple`
+    - 多个单词时：一个单词小写开头，后面的单词大写开头
+      - `appleCount`
+  - **大驼峰**：类名
+    - 全部单词以大写开头
+      - `HelloWorld`
+## 键盘录入
+![键盘录入](./Photos/键盘录入.png)
+**键盘录入**：获取键盘输入的数据，并保存到变量中
+步骤：
+1. **找到Scanner**
+2. **让Scanner干活**
+
+### 找到Scanner
+- 导入Scanner:`import java.util.Scanner;`
+- 呼叫打工人:`Scanner sc = new Scanner(System.in);`
+- 叫这个人干活(定义一个变量名来保存录入数据):
+  - `int num1 = sc.nextInt();` ——录入整数
+  - `double num2 = sc.nextDouble()` ——录入小数
+  - `String str = sc.next()` ——录入字符串
