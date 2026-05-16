@@ -13,7 +13,7 @@ public class OperatorDemo3 {
         int second1 = second % 3600;
         int minute = second1 / 60;
         int second2 = second1 % 60;
-        System.out.println(hour + " h " + minute + " m " + second2 + " s");
+        System.out.println(hour + "小时" + minute + "分钟" + second2 + "秒");
 
 
     }
